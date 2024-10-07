@@ -10,7 +10,6 @@ while True:
         player_choice = "Paper"
     else:
         player_choice = "Scissors"
-    print("\n")
     print("Player's choice", player_choice)
     choice = ["Rock", "Paper", "Scissors"]
     Computer_choice = random.choice(choice)
@@ -32,7 +31,6 @@ while True:
             print("Computer Wins!")
         elif (Computer_choice == "Paper"):
             print("Player Wins!")
-    print("\n")
     print("1) Play Again")
     print("2) Quit")
     selection = int(input("Enter Choice: "))
